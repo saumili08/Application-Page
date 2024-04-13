@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="apply_box">
+            <h1>
+                Job Application
+                <span class="tittle_small">(Web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="">First Name :</label>
+                        <input id="fname" 
+                        name="fname"
+                        type="text"
+                        placeholder="Enter First Name..." required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">Last Name :</label>
+                        <input id="lname" 
+                        name="lname"
+                        type="text"
+                        placeholder="Enter Last Name..." required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">DOB :</label>
+                        <input id="dob" 
+                        name="dob"
+                        type="date" required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">Email :</label>
+                        <input id="email" 
+                        name="email"
+                        type="email"
+                        placeholder="Enter Email Address..." required>
+                    
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">Phone :</label>
+                        <input id="phone" 
+                        name="phone"
+                        type="number"
+                        placeholder="Enter Phone Number..." required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="job_role">Job Role :</label>
+                        <select id="job_role" name="job_role">
+                            <option value="">Select Job Role</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="full_stack">Full Stack Developer</option>
+                            <option value="ui_ux">UI UX Designer</option>
+                            <option value="ml">Machine Learning Engineer</option>
+                            <option value="android">Android App Developer</option>
+                        </select>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">Address :</label>
+                        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Address..." required></textarea>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">City :</label>
+                        <input id="city" 
+                        name="city"
+                        type="text"
+                        placeholder="Enter City Name..." required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">Pincode :</label>
+                        <input id="pincode" 
+                        name="pincode"
+                        type="number"
+                        placeholder="Enter Pincode..." required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="">Upload Resume/CV :</label>
+                        <input id="upload" 
+                        name="upload"
+                        type="file" required>
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Apply Now</a></li>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
